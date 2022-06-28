@@ -1,0 +1,155 @@
+.day2{
+    padding: 65px 0 80px;
+    position: relative;
+    overflow-y: visible;
+}
+
+.day2__lake{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    max-width: 700px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.day2__clouds{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-40%);
+    z-index: 1;
+    width: 100%;
+}
+
+.day2 .container{
+    position: relative;
+    z-index: 1;
+}
+
+.day2__title{
+    font-family: 'Inter',sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 48px;
+
+}
+
+
+
+.day2__title-span{
+    color: #F47648;
+}
+.day2__text, .day2__item{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+}
+
+.day2__text_first{
+    margin-bottom: 40px;
+}
+
+.day2__text_sec{
+    margin-bottom: 168px;
+}
+
+.day2__content{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 60px;
+}
+
+.day2__carousel{
+    max-width: 700px;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    z-index: 1;
+}
+
+.day2__item{
+    margin-bottom: 30px;
+}
+
+.day2__item:last-child{
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+    .day2__lake {
+        top: 40px;
+        max-width: 510px;
+    }
+    .day2__carousel {
+        max-width: 480px;
+    }
+    .swiper-left1 .swiper-slide {
+        width: 73% !important;
+    }
+}
+
+@media (max-width: 769px) {
+    .day2__lake {
+        top: 26px;
+        max-width: 430px;
+    }
+    .day2__text_sec {
+        margin-bottom: 80px;
+    }
+    .day2__carousel {
+        max-width: 370px;
+    }
+    .day2__list {
+        width: 50%;
+    }
+    .day2__item {
+        font-size: 14px;
+    }
+    .swiper-left1 .swiper-slide {
+        width: 96% !important;
+    }
+}
+
+@media (max-width: 577px) {
+    .day2__carousel {
+        display: none;
+    }
+    .day2__lake {
+        display: none;
+    }
+    .day2__content {
+        justify-content: flex-start;
+        column-gap: 0;
+    }
+    .day2__list {
+        width: 100%;
+    }
+    .day2__item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 481px) {
+    .day2__title {
+        font-size: 29px;
+    }
+}
+
+
+@media (max-width: 376px) {
+    .day2__item {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 321px) {
+    .day2__title {
+        line-height: 39px;
+    }
+}

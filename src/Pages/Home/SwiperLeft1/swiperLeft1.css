@@ -1,0 +1,46 @@
+.swiper-left1 .swiper-slide{
+    width: 38%;
+    padding-bottom: 58px;
+    padding-top: 40px ;
+}
+
+.swiper__img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.swiper-left1 .swiper-button-prev{
+    right: 15px!important;
+    font-size: 9px!important;
+
+}
+.swiper-left1 .swiper-button-next{
+    right: 69px!important;
+}
+
+.swiper-left1 .swiper-button-prev:hover::after ,  .swiper-left1 .swiper-button-next:hover:after{
+    color: white;
+    transition: .3s;
+}
+
+.swiper-left1 .swiper-button-prev, .swiper-left1 .swiper-button-next{
+
+    border: 1px solid black;
+
+}
+.swiper-left1 .swiper-button-prev:hover ,  .swiper-left1 .swiper-button-next:hover{
+    background: black;
+    transition: .3s;
+}
+
+.swiper-left1 .swiper-button-next::after{
+    color: black;
+}
+.swiper-left1 .swiper-button-prev::after{
+
+    color: black;
+
+}
+
+
+

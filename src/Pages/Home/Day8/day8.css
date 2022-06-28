@@ -1,0 +1,58 @@
+.day8{
+    padding: 311px 0 161px;
+    background: url("./bg.png") center/cover no-repeat;
+}
+
+.day8__title{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.day8__title-span{
+    color: #F47648;
+}
+
+.day8__text{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (max-width: 577px) {
+    .day8 {
+        padding: 170px 0 130px;
+    }
+    .day8__title {
+        font-size: 37px;
+    }
+
+}
+
+@media (max-width: 481px) {
+    .day8__title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 376px) {
+    .day8__text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 321px) {
+    .day8__title {
+        font-size: 24px;
+    }
+    .day8__text {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,233 @@
+.firstScreen{
+    width: 100%;
+    padding: 120px 0 135px;
+    position: relative;
+}
+.firstScreen__video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.firstScreen__carousel{
+    width: 700px;
+    position: absolute;
+    bottom: 137px;
+    right: 0;
+    z-index: 1;
+}
+
+
+.firstScreen::before{
+    content: '';
+    width: 100%;
+    height: 94%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background: #00000020;
+}
+
+.firstScreen__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.firstScreen .container{
+    position: relative;
+    z-index: 1;
+}
+
+.firstScreen__title{
+    font-family: 'Inter',sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    font-feature-settings: 'ordn' on;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.firstScreen__time{
+    padding: 3px 24px;
+    background: linear-gradient(91.82deg, #FB8B62 5.83%, #F47648 89.73%), #F47648;
+    backdrop-filter: blur(68px);
+    border-radius: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.firstScreen__text{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.firstScreen__tour{
+    display: flex;
+    align-items: center;
+    margin-bottom: 151px;
+}
+
+.firstScreen__circle{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+
+.firstScreen__link{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-underline-offset: 4px;
+}
+
+.firstScreen__social{
+    display: flex;
+    column-gap: 23px;
+    align-items: center;
+}
+.firstScreen__social-icon{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 992px) {
+    .firstScreen {
+        padding: 116px 0 137px;
+    }
+    .firstScreen::before {
+        height: 81%;
+    }
+    .firstScreen__tour {
+        margin-bottom: 54px;
+    }
+    .firstScreen__title {
+        font-size: 50px;
+        line-height: 61px;
+    }
+    .firstScreen__time {
+        font-size: 20px;
+    }
+    .firstScreen__carousel {
+        width: 400px;
+    }
+}
+
+@media (max-width: 769px) {
+    .firstScreen {
+        padding: 110px 0 85px;
+    }
+
+    .firstScreen__carousel {
+        display: none;
+    }
+
+    .firstScreen__title {
+        font-size: 41px;
+        line-height: 43px;
+    }
+    .firstScreen__time {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .firstScreen__text {
+        font-size: 18px;
+    }
+    .firstScreen__circle {
+        width: 40px;
+        height: 40px;
+    }
+    .firstScreen__tour {
+        margin-bottom: 15px;
+    }
+    .firstScreen::before {
+        height: 85%;
+    }
+}
+
+
+@media (max-width: 577px) {
+    .firstScreen {
+        padding: 78px 0 37px;
+    }
+    .firstScreen::before {
+        height: 90%;
+    }
+    .firstScreen__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .firstScreen__title {
+        font-size: 35px;
+        line-height: 36px;
+        margin-bottom: 18px;
+    }
+    .firstScreen__time {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .firstScreen__circle {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 481px) {
+    .firstScreen {
+        background: url("bg1.jpg") center / cover no-repeat;
+        padding: 110px 0 37px;
+    }
+    .firstScreen__video {
+        display: none;
+    }
+}
+
+@media (max-width: 376px) {
+    .firstScreen__link {
+        font-size: 14px;
+    }
+    .firstScreen__social-icon {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 321px) {
+    .firstScreen__title {
+        font-size: 33px;
+        line-height: 34px;
+    }
+    .firstScreen__text {
+        font-size: 15px;
+    }
+    .firstScreen__link {
+        font-size: 13px;
+    }
+    .firstScreen__flex {
+        flex-direction: column;
+    }
+}

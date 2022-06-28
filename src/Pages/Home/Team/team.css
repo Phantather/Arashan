@@ -1,0 +1,145 @@
+.team{
+    padding: 120px 0 133px;
+}
+
+.team__title{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: #121212;
+}
+
+.team__subtitle{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    margin: 59px 0 79px;
+    opacity: 0.8;
+}
+
+.team__swipe{
+    width: 100%;
+
+}
+.team__swipe-img{
+    width: 100%;
+}
+
+.team__swipe-text{
+    font-family: 'Lato',sans-serif;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.team__swipe-orange{
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+    color: #F47648;
+    margin-left: 5px;
+}
+
+.team .swiper{
+    padding-bottom: 94px;
+}
+
+ .swiper-button-prev,  .swiper-button-next{
+    width: 38px!important;
+    height: 38px!important;
+    border-radius: 50%!important;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: unset!important;
+    top: unset!important;
+    bottom: 0!important;
+    transition: .3s;
+}
+ .swiper-button-prev:hover ,  .swiper-button-next:hover{
+    background: black;
+    transition: .3s;
+}
+
+ .swiper-button-prev:hover::after ,  .swiper-button-next:hover:after{
+    color: white;
+    transition: .3s;
+}
+
+.team .swiper-button-prev{
+    right: 55px!important;
+    font-size: 9px!important;
+
+}
+.team .swiper-button-next{
+    right: 0!important;
+}
+
+ .swiper-button-next::after{
+    font-size: 18px!important;
+    color: black;
+    transition: .3s;
+}
+ .swiper-button-prev::after{
+    font-size: 18px!important;
+    color: black;
+    transition: .3s;
+}
+
+
+ @media (max-width: 769px) {
+     .team__title {
+         font-size: 52px;
+         line-height: 66px;
+     }
+ }
+
+@media (max-width: 577px) {
+    .team {
+        padding: 70px 0 60px;
+    }
+    .team__title {
+        font-size: 43px;
+        line-height: 66px;
+    }
+    .team .swiper-button-next {
+        display: none;
+    }
+    .team .swiper-button-prev {
+        display: none;
+    }
+
+}
+
+@media (max-width: 481px) {
+    .team__title {
+        font-size: 35px;
+        line-height: 58px;
+    }
+    .team__subtitle {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 376px){
+    .team__title {
+        font-size: 27px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 321px) {
+    .team__title {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}

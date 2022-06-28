@@ -1,0 +1,249 @@
+.begin{
+    padding: 120px 0 147px;
+    position: relative;
+}
+
+.begin::before{
+    position: absolute;
+    content: '';
+    background: linear-gradient(2.4deg, #000000 12.72%, rgba(0, 0, 0, 0.633721) 44.36%, rgba(0, 0, 0, 0) 70.61%);
+    bottom: 0;
+    height: 725px;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.begin::after{
+    content: url("./air.png");
+    top: 657px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.begin .container{
+    position: relative;
+    z-index: 1;
+}
+
+.begin__bg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.begin__title{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #121212;
+    margin-bottom: 27px;
+}
+
+.begin__subtitle{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #313131;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}
+
+.begin__text{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    opacity: 0.8;
+    margin-bottom: 64px;
+}
+
+.begin__list{
+    display: flex;
+    position: relative;
+}
+.begin__list::before{
+    content: 'AРАШАН';
+    font-size: 180px;
+    font-family: 'Inter',sans-serif;
+    color: #30323470;
+    font-weight: bold;
+    bottom: -32px;
+    right: 0;
+    height: 20px;
+    position: absolute;
+}
+
+
+
+.begin__item{
+    margin-right: 64px;
+}
+.begin__item:last-child{
+    margin-right: 0;
+}
+.begin__item-hard{
+    margin-top: 8px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #212121;
+}
+.begin__item-category{
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+}
+.begin__about{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 381px;
+}
+.begin__comment{
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DEDEDE;
+    margin: 32px 0 13px;
+}
+
+.begin__author{
+    font-family: 'Lato',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.begin__btns{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    column-gap: 50px;
+    z-index: 30;
+}
+
+.begin__btn{
+    padding: 11px 15px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.begin__btn:hover{
+    transition: .5s;
+    background: #F47648;
+    color: white;
+}
+
+
+@media (max-width: 992px) {
+    .begin {
+        padding: 0 0 147px;
+    }
+}
+
+@media (max-width: 769px) {
+    .begin__title {
+        font-size: 37px;
+    }
+    .begin__list::before {
+        font-size: 160px;
+    }
+    .begin__item-category {
+        font-size: 15px;
+    }
+    .begin::after {
+        top: 540px;
+    }
+    .begin__btns {
+        z-index: 1;
+    }
+}
+
+@media (max-width: 577px) {
+    .begin {
+        padding: 0 0 78px;
+    }
+    .begin__title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .begin__subtitle {
+        font-size: 23px;
+    }
+    .begin__text {
+        font-size: 14px;
+    }
+    .begin__list {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .begin__list::before {
+        font-size: 117px;
+    }
+    .begin::after {
+        top: 575px;
+    }
+    .begin__item {
+        width: calc(50% - 7.5px);
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 481px) {
+    .begin {
+        padding: 78px 0;
+    }
+    .begin::after {
+        display: none;
+    }
+    .begin__subtitle {
+        font-size: 19px;
+    }
+    .begin__text {
+        font-size: 12px;
+    }
+    .begin__list::before {
+        font-size: 95px;
+    }
+    .begin__about {
+        margin-top: 223px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 376px) {
+    .begin__item-category {
+        font-size: 14px;
+    }
+    .begin__list::before {
+        font-size: 75px;
+        bottom: -60px;
+    }
+}
+
+@media (max-width: 321px) {
+    .begin__list::before {
+        font-size: 62px;
+    }
+}

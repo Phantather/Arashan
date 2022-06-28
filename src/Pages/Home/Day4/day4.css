@@ -1,0 +1,63 @@
+.day4{
+    padding: 105px 0 98px;
+    background: #000000;
+    position: relative;
+}
+
+.day4 .container{
+    position: relative;
+}
+
+.day4__birds {
+    position: absolute;
+    bottom: -110px;
+    right: 0;
+}
+
+.day4__carousel{
+    position: absolute;
+    width: 700px;
+    z-index: 1;
+    top: 145px;
+    right: 0;
+}
+
+
+
+.day4__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.day4__title{
+    font-family: 'Inter',sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 48px;
+
+}
+
+.day4__title-span{
+    color: #F47648;
+}
+
+
+
+.day4__item{
+    margin-bottom: 30px;
+}
+
+.day4__item:last-child{
+    margin-bottom: 0;
+}
+
+.day4__item{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ACACAC;
+}
