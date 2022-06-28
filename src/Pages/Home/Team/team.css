@@ -130,6 +130,15 @@
 }
 
 
+
+@media (max-width: 426px) {
+    .team__title {
+        font-size: 31px;
+        line-height: 58px;
+    }
+}
+
+
 @media (max-width: 376px){
     .team__title {
         font-size: 27px;

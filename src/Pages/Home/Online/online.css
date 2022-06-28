@@ -304,6 +304,14 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
+@media (max-width: 426px) {
+    .online__form-item {
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: flex-start;
+    }
+}
+
 @media (max-width: 321px) {
     .online__form-top {
         flex-direction: column;

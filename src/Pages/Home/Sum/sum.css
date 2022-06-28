@@ -210,6 +210,17 @@
     }
 }
 
+@media (max-width: 426px) {
+    .sum__title {
+        font-size: 38px;
+    }
+    .sum__tarif-title {
+        font-size: 19px;
+        font-weight: 400;
+    }
+}
+
+
 
 @media (max-width: 376px) {
     .sum__title{

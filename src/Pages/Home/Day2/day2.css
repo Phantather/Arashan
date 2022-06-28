@@ -141,6 +141,14 @@
     }
 }
 
+@media (max-width: 426px) {
+    .day2__title {
+        font-size: 25px;
+        line-height: 46px;
+    }
+
+}
+
 
 @media (max-width: 376px) {
     .day2__item {

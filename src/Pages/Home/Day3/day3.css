@@ -113,6 +113,12 @@
 
 }
 
+@media (max-width: 426px) {
+    .day3__title {
+        font-size: 35px;
+    }
+}
+
 @media (max-width: 321px) {
     .day3__title {
         font-size: 35px;

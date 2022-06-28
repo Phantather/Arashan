@@ -232,6 +232,13 @@
     }
 }
 
+@media (max-width: 426px) {
+    .begin__list:before {
+        font-size: 83px;
+    }
+}
+
+
 @media (max-width: 376px) {
     .begin__item-category {
         font-size: 14px;

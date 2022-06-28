@@ -112,6 +112,14 @@
     }
 }
 
+@media (max-width: 426px) {
+    .day1__title {
+        font-size: 29px;
+    }
+}
+
+
+
 @media (max-width: 376px) {
     .day1__item {
         font-size: 14px;
